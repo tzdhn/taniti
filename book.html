@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taniti - Book</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<strong>Taniti Island Tourism</strong> |
+<a href="home.html">Home</a>
+<a href="activities.html">Activities</a>
+<a href="dining.html">Dining</a>
+<a href="lodging.html">Lodging</a>
+<a href="transport.html">Transportation</a>
+<a href="book.html">Book Your Trip</a>
+<a href="faq.html">FAQ</a>
+</nav>
+
+<main>
+<div class="page" id="page-book">
+<h1>Book Your Trip</h1>
+<div class="note"> USD, Euros, and Yen accepted island-wide. Major credit cards welcome. Currency exchange available at several banks.</div>
+
+<h2>Trip Planner</h2>
+<p style="font-size:0.9rem;color:#555;">Step 1 of 2 — Tell us about your trip</p>
+<form onsubmit="event.preventDefault(); openModal('Trip Planner','Your itinerary is being prepared. In the full version, this generates a custom day-by-day schedule based on your selections.')">
+<label>Arrival Date <input type="date"/></label>
+<label>Departure Date <input type="date"/></label>
+<label>Party Size
+      <select>
+<option>1 traveler</option>
+<option>2 travelers</option>
+<option>3–4 travelers</option>
+<option>5–6 travelers</option>
+<option>7+ travelers</option>
+</select>
+</label>
+<label>Accommodation Type
+      <select>
+<option>Hotel</option>
+<option>Bed &amp; Breakfast</option>
+<option>Hostel</option>
+<option>Private Rental</option>
+<option>Resort</option>
+</select>
+</label>
+<label>Interests (hold Ctrl/Cmd to select multiple)
+      <select multiple="" size="6" style="width:100%;">
+<option>Beaches</option>
+<option>Volcano</option>
+<option>Rainforest</option>
+<option>Fishing</option>
+<option>Snorkeling</option>
+<option>Culture &amp; History</option>
+<option>Dining</option>
+<option>Nightlife</option>
+</select>
+</label>
+<br/>
+<button type="submit">Build My Itinerary →</button>
+</form>
+</div>
+</main>
+</body>
+</html>

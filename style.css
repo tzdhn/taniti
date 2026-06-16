@@ -1,0 +1,40 @@
+
+  body { font-family: Helvetica, sans-serif; font-size: 16px; margin: 0; padding: 0; }
+  nav { background: #ddd; padding: 10px 20px; }
+  nav a { margin-right: 14px; text-decoration: none; color: #000; cursor: pointer; }
+  nav a.active { font-weight: bold; text-decoration: underline; }
+  .page { display: none; max-width: 900px; margin: 0 auto; padding: 20px; }
+  .page.active { display: block; }
+  h1 { font-size: 1.4rem; border-bottom: 1px solid #ccc; padding-bottom: 6px; }
+  h2 { font-size: 1.1rem; margin-top: 24px; }
+  .note { background: #ffffcc; border: 1px solid #ccc; padding: 8px 12px; margin: 10px 0; font-size: 0.9rem; }
+  .card { border: 1px solid #ccc; padding: 12px; margin: 10px 0; }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card p { margin: 0 0 8px; font-size: 0.9rem; color: #444; }
+  .card .meta { font-size: 0.85rem; color: #666; margin-bottom: 6px; }
+  button { padding: 6px 14px; cursor: pointer; font-size: 0.9rem; }
+  .filters { margin-bottom: 14px; }
+  .filters button { margin-right: 6px; margin-bottom: 6px; }
+  .filters button.active { font-weight: bold; text-decoration: underline; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .quickfacts { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+  .quickfacts div { border: 1px solid #ccc; padding: 6px 10px; font-size: 0.85rem; }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li { margin: 4px 0; }
+  .checklist li a { cursor: pointer; color: #00f; text-decoration: underline; }
+  .faq-item { border-bottom: 1px solid #ccc; padding: 8px 0; }
+  .faq-q { cursor: pointer; font-weight: bold; }
+  .faq-a { display: none; padding-top: 6px; font-size: 0.9rem; color: #444; }
+  .transport-list { list-style: disc; padding-left: 20px; font-size: 0.95rem; }
+  .transport-list li { margin: 6px 0; }
+  form { max-width: 480px; }
+  form label { display: block; font-size: 0.9rem; margin: 10px 0 3px; }
+  form input, form select { width: 100%; padding: 6px; font-size: 0.9rem; }
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); }
+  .modal-overlay.open { display: flex; align-items: center; justify-content: center; }
+  .modal { background: #fff; border: 1px solid #999; padding: 24px; max-width: 360px; width: 90%; }
+  footer { border-top: 1px solid #ccc; margin-top: 40px; padding: 14px 20px; font-size: 0.85rem; color: #555; }
+  footer a { margin-right: 10px; cursor: pointer; color: #000; }
+
+.page { display:block !important; }
+.faq-a { display:block !important; }
